@@ -1,0 +1,35 @@
+.content {
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width:1200) {
+    .content {
+        margin-right: 100px !important;
+        margin-left: 100px !important;
+    }
+}
+@media screen and (max-width:1080) {
+    .content {
+        margin-right: 80px !important;
+        margin-left: 80px !important;
+    }
+}
+@media screen and (max-width:826) {
+    .content {
+        margin-right: 40px !important;
+        margin-left: 40px !important;
+    }
+}
+@media screen and (max-width:680) {
+    .content {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+}
+@media screen and (max-width:420) {
+    .content {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+}

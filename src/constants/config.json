@@ -1,0 +1,20 @@
+{
+    "server": {
+        "base_url": "http://localhost:8000/api"
+    },
+    "requestMethod": {
+        "GET": "get",
+        "POST": "post",
+        "PUT": "put",
+        "DELETE": "delete"
+    },
+    "services":[
+        {"id": 1, "name": "home", "label": "HOME", "route": "/home"},
+        {"id": 2, "name": "compose", "label": "Compose", "route": "/compose"}
+    ],
+    "composeSteps": [
+        {"key": 0, "label": "Compose Note"},
+        {"key": 1, "label": "Add Image"},
+        {"key": 2, "label": "Complete"}
+    ]
+}
